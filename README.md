@@ -27,3 +27,15 @@ This is an evolving lab — expect rough edges.
 - ArgoCD / Helm / GitOps
 - ChatGPT / Copilot
 - Replit, Coder
+
+## Try It Out
+
+This repo includes a real script to generate a Kubernetes Deployment YAML file:
+
+**`generate_helm_yaml.py`**
+
+```bash
+python generate_helm_yaml.py
+```
+
+This will create a file named `node-app-deploy.yaml` in the current folder — ready to be used with `kubectl apply -f` or included in a Helm chart.
